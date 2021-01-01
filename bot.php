@@ -88,8 +88,7 @@ bot('sendmessage', [
 ➤ Cᴏᴜɴᴛʀʏ : $country
 
 ➤ Cʀᴇᴅɪᴛ/Dᴇʙɪᴛ : $type
-
-🔺BIN CHECKED FROM DATABASE OF BIN-SU🔻***",
+***",
 'parse_mode'=>"MarkDown",
 ]);
     }
