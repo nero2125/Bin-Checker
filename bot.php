@@ -75,8 +75,7 @@ $country =  $data['data']['country'];
  if($data['data']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***VALID BIN✅
-               
+                'text' =>"***
 ➤ Bin : $bin
 
 ➤ Level : $level
@@ -88,8 +87,6 @@ bot('sendmessage', [
 ➤ Bank : $bank
 
 ➤ Country : $country
-
-➤ Credit/Debit : $type
 ***",
 'parse_mode'=>"MarkDown",
 ]);
