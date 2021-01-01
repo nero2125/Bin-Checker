@@ -77,17 +77,19 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***VALID BIN✅
                
-➤ Bɪɴ : $bin
+➤ Bin : $bin
 
-➤ Tʏᴘᴇ : $type
+➤ Level : $level
 
-➤ Bʀᴀɴᴅ : $vendor
+➤ Type : $type
 
-➤ Bᴀɴᴋ : $bank
+➤ Brand : $vendor
 
-➤ Cᴏᴜɴᴛʀʏ : $country
+➤ Bank : $bank
 
-➤ Cʀᴇᴅɪᴛ/Dᴇʙɪᴛ : $type
+➤ Country : $country
+
+➤ Credit/Debit : $type
 ***",
 'parse_mode'=>"MarkDown",
 ]);
